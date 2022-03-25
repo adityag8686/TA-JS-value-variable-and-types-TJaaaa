@@ -18,6 +18,8 @@ let lastName = "Stark";
 // Set the value of `isAdmin` to `true`.
 // Alert the values of all the three variables.
 
+alert("John");
+
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
