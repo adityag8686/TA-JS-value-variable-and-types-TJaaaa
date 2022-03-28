@@ -10,7 +10,23 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-
+// let age = +prompt("Enter your age");
+// if (age>=12 && age<=55)
+// {
+//   console.log("You can participate in the marathon");
+// }
+// else if(age>=4 && age<=11)
+// {
+//   console.log(" You are too young to participate in the marathon");
+// }
+// else if (age<4)
+// {
+//   console.log(" Hey Kiddo! Can You Walk ?");
+// }
+// else if (age>55)
+// {
+//   console.log(" You are too old to participate in the marthon");
+// }
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -21,13 +37,23 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
-
+// let word = ""
+// let n = +prompt("enter a number");
+// for (let i=0;i<=n;i++){
+//   word += "e"; 
+// }
+// console.log(`h${word}llo`);
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
-
+// let n = +prompt("enter a number");
+// for(let i=1; i<=n;i++)
+// {
+//   let sum = sum + i;
+// }
+// console.log(sum);
 /* Switch Statement
 
  🎖Using switch statement do the following
@@ -86,3 +112,29 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+let numA= +prompt("enter first num");
+let numB = +prompt("enter second num");
+let operation = +prompt("enter Add/ sub/ Mul/divide")
+let Add, sub, Mul, Divide;
+if (Add="operation")
+Add= numA + numB;
+if (sub="operation")
+{
+  if (numA>numB)
+  {
+    let sub = numA - numB;
+  }
+}
+if (Mul="operation")
+ Mul= numA *numB;
+if (Divide="operation")
+{
+  if (numA>numB)
+  {
+    Divide = numA / numB;
+  }
+}
+console.log(Add);
+console.log(sub);
+console.log(Mul);
+console.log(divide);
