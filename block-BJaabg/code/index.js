@@ -16,3 +16,12 @@ var amount = 0;
 // your code goes here
 
 // ⛑ Answer of the above will `$334.76`.
+while (amount < bank_balance) {
+    amount = amount + PHONE_PRICE;
+
+    if (amount < SPENDING_THRESHOLD) {
+        amount = amount + ACCESSORY_PRICE;
+    }
+}
+amount = amount +(.08*amount);
+console.log(amount);
